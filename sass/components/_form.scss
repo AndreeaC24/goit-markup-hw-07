@@ -108,7 +108,7 @@
 input[type="checkbox"] {
   display: none;
   &:checked {
-    & + .modal__form-service__checkbox-replace {
+    &+.modal__form-service__checkbox-replace {
       background-color: var(--blue-color);
       fill: var(--blue-color);
       #check_img {

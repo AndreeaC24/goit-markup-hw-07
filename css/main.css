@@ -841,27 +841,27 @@ input[type=checkbox]:checked + .modal__form-service__checkbox-replace #check_img
   padding: 15px;
   outline: none;
 }
-.footer-section__newsletter__form input ::-moz-placeholder {
+.footer-section__newsletter__form input::-moz-placeholder {
   letter-spacing: var(--letterspacing);
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25em;
 }
-.footer-section__newsletter__form input :-ms-input-placeholder {
+.footer-section__newsletter__form input:-ms-input-placeholder {
   letter-spacing: var(--letterspacing);
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25em;
 }
-.footer-section__newsletter__form input ::placeholder {
+.footer-section__newsletter__form input::placeholder {
   letter-spacing: var(--letterspacing);
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25em;
 }
-.footer-section__newsletter__form input :focus {
-  border: 1px solid var(--blue-color);
+.footer-section__newsletter__form input:focus {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--blue-color);
 }
 .footer-section__newsletter__form button {
   text-align: center;
